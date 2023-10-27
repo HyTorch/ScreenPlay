@@ -13,7 +13,7 @@ Matching Games to Your Viewing Preferences
 
 3. Programming language - I'll be primarily using Javascript, CSS, HTML, and Python.
 
-4. At least 20*N hours justification - 
+4. At least 20*N hours justification - The time it takes to implement a web application that can call both the Steam Web API and IMDB API for data to execute Okapi BM25 TF/IDF weighting on the AWS (or locally) architecture would suffice more than 20 hours of work.
 
 
 
