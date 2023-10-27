@@ -3,9 +3,7 @@ Matching Games to Your Viewing Preferences
 
 1. Name, NetID, Captain - Chris Park(Captain and sole member of Crescent Orange Team) - hpark102
 
-2. Free topic - ScreenPlay: Matching Games to Your Viewing Preferences.
-
-Task(s) - The application will match games to the users’ viewing preferences such as TV shows and movies. Implement an Okapi BM25 TF/IDF weighting for the output of a list of games in comparative ranking.
+2. Free topic - ScreenPlay: Matching Games to Your Viewing Preferences. Task(s) - The application will match games to the users’ viewing preferences such as TV shows and movies. Implement an Okapi BM25 TF/IDF weighting for the output of a list of games in comparative ranking.
 
 Importance and Interest - It’s an important and interesting application because this gives people the opportunity to live through the experience of their favorite scenes and characters in the screens of movies and TV shows.
 
