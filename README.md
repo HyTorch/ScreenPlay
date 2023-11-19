@@ -16,5 +16,7 @@ Matching Games to Your Viewing Preferences
 4. At least 20*N hours justification - The time it takes to implement a web application that can call both the Steam Web API and IMDB API for data to execute Okapi BM25 TF/IDF weighting on the AWS (or locally) architecture would suffice more than 20 hours of work.
 
 
+Progress Report
+Please upload your progress report to the Github repo shared on CMT. The progress report should give us an idea of how you're implementing your proposal. It should answer 3 main questions: 1) Which tasks have been completed? 2) Which tasks are pending? 3) Are you facing any challenges? 
 
  
