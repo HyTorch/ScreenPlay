@@ -28,4 +28,5 @@ Please upload your progress report to the Github repo shared on CMT. The progres
 <br> - I need to test out some more samples to see if the comparative ranking is sufficient
 3) Are you facing any challenges
 <br> - I am spending more time on trying to set up the web page
-<br> - I think there could be 
+<br> - Which includes, outputting a ranked list of recommended movies
+<br> - and improve the site to allow users without the need to download depending libraries.
