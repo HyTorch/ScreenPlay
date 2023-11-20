@@ -16,7 +16,16 @@ Matching Games to Your Viewing Preferences
 4. At least 20*N hours justification - The time it takes to implement a web application that can call both the Steam Web API and IMDB API for data to execute Okapi BM25 TF/IDF weighting on the AWS (or locally) architecture would suffice more than 20 hours of work.
 
 
-Progress Report
+# Progress Report
 Please upload your progress report to the Github repo shared on CMT. The progress report should give us an idea of how you're implementing your proposal. It should answer 3 main questions: 1) Which tasks have been completed? 2) Which tasks are pending? 3) Are you facing any challenges? 
 
- 
+1) Complete tasks include
+<br> - Identifying the tools, systems and datasets involved. The tools to use are pypi's steam api, the systems require a large dataset to be stored by mining the imdb site, the datasets involved are both using those two tools.
+<br> - I've acquired Steam's Web API to access to the largest game library provided by the engine. When the user enters his or her Steam user ID, I am able to retrieve the games they own.
+<br> - Created comparative ranking using the BM25 TF/IDF weighing
+2) Which tasks are pending
+<br> - I want to be able to have a simple web page where users can interact with it by inputting their ID. Currently it's only running on hard coded Steam ID
+<br> - I need to test out some more samples to see if the comparative ranking is sufficient
+3) Are you facing any challenges
+<br> - I am spending more time on trying to set up the web page
+<br> - I think there could be 
