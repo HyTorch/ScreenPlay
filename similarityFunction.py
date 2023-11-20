@@ -1,22 +1,4 @@
 import math
-from steam import Steam
-from decouple import config
-
-# https://pypi.org/project/python-steam-api/ API document reference
-# STEAM_API_KEY is my Steam domain API Key
-S_Key = config("STEAM_API_KEY")
-steam = Steam(S_Key)
-
-# enter in your steam account ID below
-steam_account_ID = "000000000000"
-user = steam.users.get_user_recently_played_games(steam_account_ID)
-
-#get user owned games
-games_response = steam.users.get_owned_games(steam_account_ID)
-
-for game in games_response:
-    games = game[id]
-# arguments: search
 
 # Computes a similarity score based on tf-idf between a game and a movie
 def tfidf_similarity(game, movie, df_dict, total_game_words, total_movie_words):
