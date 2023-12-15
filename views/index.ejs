@@ -1,0 +1,76 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScreenPlay</title>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <a href="http://localhost:3000/api/auth/steam">Sign in</a>
+    <div>
+        <% if (recentGames.length> 0) { %>
+            <h4>Recent Games:</h4>
+            <ul>
+                <% recentGames.forEach(game=> { %>
+                    <li>
+                        <%= game.name %>
+                    </li>
+                    <% }); %>
+            </ul>
+            <% } else { %>
+                <p>No recent games found.</p>
+                <% } %>
+
+                    <% if (ownedGames.length> 0) { %>
+                        <h4>Owned Games:</h4>
+                        <ul>
+                            <% ownedGames.forEach(game=> { %>
+                                <li>
+                                    <%= game.name %>
+                                </li>
+                                <% }); %>
+                        </ul>
+                        <% } else { %>
+                            <p>No owned games found.</p>
+                            <% } %>
+    </div>
+    <div id="myTable">
+        <table class="search-results table table-condensed table-striped">
+            <thead>
+                <tr>
+                    <th>Cover</th>
+                    <th>Movie</th>
+                    <th>Genres</th>
+                    <th>Ratings</th>
+                    <th>Released on</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% movieScores.forEach(movie=> { %>
+                    <tr>
+                        <td><img src='<%= movie[0] %>' alt='Cover' height='50'></td>
+                        <td>
+                            <%= movie[1] %>
+                        </td>
+                        <td>
+                            <%= movie[2].join(', ') %></td>
+                                    <td><%= movie[4] %></td>
+                                    <td><%= movie[3] %></td>
+                                </tr>
+                            <% }); %>
+                        </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
