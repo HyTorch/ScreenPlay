@@ -40,6 +40,7 @@ At the final stage of your project, you need to deliver the following:
 <br> - I have completed most of what I had planned. Although I haven't completed all the aspects of the webpage's architecture, I have achieved the expected outcome.
 <br> - I have wanted to make the site accessible through a domain hosted on AWS once I have successfully made the webpage work. Implementing the required tasks to make a functioning site, a webscraper for movie imsdb site, an Okapi BM25 TF/IDF weighting for the output of a list of movies in comparative ranking, Steam API usage for logins and game information, and the express ejs webpage already took over 20 hours.
 <br> - I could not proceed to transfer the architecture onto AWS as I had to document, test, and record the results.
+<br> - I tested using two different Steam accounts, and the expected outcomes were ideal.
 <br> - I believe the concept and idea of suggesting movies based on the games users play is a novelty. Also, game descriptions and game titles are better data to suggest movies than what the previous SpotFlix project has implemented in their applicaions. Frankly, comparing between screen entertainment such as gaming and movies would suggest better rankings over the other project's comparison between song lyrics and movies.
 5) A demo that shows your code can actually run and generate the desired results.
 <br> - Uploaded video on how the application works - Note: you must be logged in to the mediaspace site
