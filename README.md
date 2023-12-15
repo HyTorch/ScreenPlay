@@ -7,7 +7,7 @@ Matching Games to Your Viewing Preferences
 <br> Task(s) - The application will match TV shows and movies to the users’ game playing preferences such as games and board games. Implement an Okapi BM25 TF/IDF weighting for the output of a list of games in comparative ranking.
 <br>Importance and Interest - It’s an important and interesting application because this gives people the opportunity to live through the experience of their favorite scenes and characters in the screens of movies and TV shows.
 <br>Planned approach - Build a correlation between the user’s screen preferences and game preferences by comparing the games’ review, genres, and description to the movie’s review, genres, and description respectively.
-<br>Tools, systems or datasets involved - It will require using Steam Web API to get access to the largest game library provided by the engine. For Steam Web API calls and usage, I will use the Python Client wrapper for Steam API. It will also require using IMDB API to get access to the largest movie and tv show library. I 
+<br>Tools, systems or datasets involved - It will require using Steam Web API to get access to the largest game library provided by the engine. For Steam Web API calls and usage, I will use the NodeJS Client wrapper for Steam API. It will also require using IMDB API to get access to the largest movie and tv show library. I 
 <br>Expected outcome - When users login to their Steam account, the ScreenPlay application has their gaming information to output a list of movies in comparative ranking 
 <br>Evaluation - If the list of games are aligned with the suggested movies, it's doing the job correctly. For example, if I play Spider-man games, I would see Spider-man movies as my top results.
 
