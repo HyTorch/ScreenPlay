@@ -44,4 +44,4 @@ At the final stage of your project, you need to deliver the following:
 <br> - I believe the concept and idea of suggesting movies based on the games users play is a novelty. Also, game descriptions and game titles are better data to suggest movies than what the previous SpotFlix project has implemented in their applicaions. Frankly, comparing between screen entertainment such as gaming and movies would suggest better rankings over the other project's comparison between song lyrics and movies.
 5) A demo that shows your code can actually run and generate the desired results.
 <br> - Uploaded video on how the application works - Note: you must be logged in to the mediaspace site
-<br> 
+<br> https://mediaspace.illinois.edu/media/t/1_nxpaq4av
